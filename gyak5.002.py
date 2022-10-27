@@ -13,6 +13,8 @@ if mertekegyseg == "C":
         K = homerseklet + 273.15
         print("A hőmérséklet Celsiusban", homerseklet)
         print("A hőmérséklet Kelvinben", K)
+    else:
+        print(homerseklet)
 elif mertekegyseg == "F":
     if kivantme == "c":
         C = (homerseklet-32)/1.8
@@ -23,6 +25,8 @@ elif mertekegyseg == "F":
         K = C+273.15
         print("A hőmérséklet Farenheitben", homerseklet)
         print("A hőmérséklet Kelvinben", K)
+    else:
+        print(homerseklet)
 
 elif mertekegyseg == "K":
     if kivantme == "c":
@@ -32,5 +36,9 @@ elif mertekegyseg == "K":
     elif kivantme == "f":
         C = homerseklet - 273.15
         F = C*1.8+32
-    print("A hőmérséklet Kelvinben", homerseklet)
-    print("A hőmérséklet Farenheitben",F)
+        print("A hőmérséklet Kelvinben", homerseklet)
+        print("A hőmérséklet Farenheitben", F)
+    else:
+        print(homerseklet)
+else:
+    print("TE... Ides, így a gyárbúl ki se agygyák!")
