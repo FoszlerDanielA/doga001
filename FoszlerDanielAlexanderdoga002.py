@@ -1,20 +1,7 @@
 a = 1
-#szam = int(input())
-
-#logikai = True
-
-#for i in range(2,szam,1):
-#    if szam % i == 0:
-#        logikai = False
-
-#if logikai:
-#    print("prímszám")
-#else:
-#    print("nem prímszám")
-
+logikai = True
 
 a = int(input("Írja ide a bekérendő számot:"))
-logikai = True
 for i in range(2,a,1):
     if a % i == 0:
         logikai = False
@@ -23,7 +10,7 @@ if logikai == False:
         print("Ура(Hurrá)!")
     elif a%3==0:
         print("Három a magyar igazság.")
-    if a <=10:
+    if a <= 10:
         if a == 1:
             print("I")
         elif a == 2:
