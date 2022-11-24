@@ -20,7 +20,7 @@ else:
             print("Hossz centiméterben", hossz)
             print("A hossz Kilométerben", Km)
         else:
-            print(hossz)
+            print("Ezt a(z)",hossz,"-t a gyárból ki sem adják!")
     elif mertekegyseg == "M":
         if kivantme == "c":
             Cm = hossz*100
@@ -31,7 +31,7 @@ else:
             print("A hossz méterben", hossz)
             print("A hossz kilométerben", Km)
         else:
-            print(hossz)
+            print("Ezt a(z)",hossz,"-t a gyárból ki sem adják!")
 
     elif mertekegyseg == "K":
         if kivantme == "c":
@@ -43,4 +43,4 @@ else:
             print("A hossz kilométerben", hossz)
             print("A hossz méterben", M)
         else:
-            print(hossz)
+            print("Ezt a(z)",hossz,"-t a gyárból ki sem adják!")
