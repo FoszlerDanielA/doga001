@@ -23,3 +23,18 @@ for i in kor:
     if i < legfiatalabb:
         legfiatalabb = i
 print(legfiatalabb)
+oregek = []
+fiatalok = []
+
+for i,j in zip(nev,kor):
+    if j == legoregebb:
+        print(i,j)
+        oregek.append(i)
+
+for i,j in zip(nev,kor):
+    if j == legfiatalabb:
+        print(i,j)
+        fiatalok.append(i)
+
+print(oregek)
+print(fiatalok)
