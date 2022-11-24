@@ -2,6 +2,9 @@ hossz = float(input("Add meg az alap hosszt!"))
 if hossz == (-1):
     print("A program vége")
 else:
+    while hossz < 0:
+        hossz = float(input("Add meg az alap hosszt!"))
+
     print("Add meg a mértékegységet C=centiméter M=méter K=Kilométer")
     mertekegyseg = input()
     print("Kérlek add meg, hogy mire szeretnél átváltatni c=centiméter m=méter k=kilométer")
