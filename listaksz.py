@@ -1,4 +1,4 @@
-nev = ["Cony","Arnold Svárcenegger","Czigány Dezdemóna","Lakatos Dzsiglipuff"]
+nev = ["Tápül","Arnold Svárcenegger","Czigány Dezdemóna","Lakatos Dzsiglipuff"]
 
 szul_ev = [1206,88,1405,1999]
 
