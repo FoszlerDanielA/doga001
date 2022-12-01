@@ -14,11 +14,22 @@
 #        maxElem = t[i]
 #        maxhely = i
 #print(maxElem,maxhely)
+####################################################
+#ebben a feladatban a plussz kicserélhető bármire
+#t = [3,8,2,4,5,1,6]
+
+#osszeg = 0
+#for num in t:
+#    osszeg = osszeg + num
+#
+#print("Összeg:",osszeg)
 ##########################
-t = [3,8,2,4,5,1,6]
-
-osszeg = 0
-for num in t:
-    osszeg = osszeg + num
-
-print("Összeg:",osszeg)
+#t = [5,3,6,2,1]
+#
+#minElem = t[0]
+#for i in range(1,len(t)):
+#    if t[i] < minElem:
+#        minElem = t[i]
+#        minhely = i
+#print(minElem,minhely)
+##########################
