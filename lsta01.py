@@ -41,3 +41,14 @@ for i in range(1,len(lista1)):
         helye = i
 print("a huszon kilences helye:",helye)
 #7es
+Logikai = True
+
+i = 0
+
+while i < elem and lista1[i] % 2 ==0:
+    i = i + 1
+
+if i < elem:
+    Logikai = False
+
+print("A válasz:",Logikai)
