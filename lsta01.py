@@ -52,3 +52,10 @@ if i < elem:
     Logikai = False
 
 print("A válasz:",Logikai)
+#8as
+atl = 0
+osszeg = 0
+for i in lista1:
+    osszeg = osszeg + 1
+    atlag = osszeg/elem
+print(atlag)
