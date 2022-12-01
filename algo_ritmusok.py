@@ -33,3 +33,11 @@
 #        minhely = i
 #print(minElem,minhely)
 ##########################
+t = [3,-8,2,4,5,11,6]
+
+count = 0
+for num in t:
+    if num < 0:
+        count = count + 1
+
+print("negatív számok:", count)
