@@ -37,6 +37,7 @@ print("tízzel osztható számok mennyisége:", tizes)
 huszonkilenc = 0
 for i in range(1,len(lista1)):
     if lista1[i] % 29 == 0:
-        huszonkilenc=lista1[i]
+        huszonkilenc = lista1[i]
         helye = i
-print("huszonkilenccel osztható szám helye:",helye)
+print("a huszon kilences helye:",helye)
+#7es
