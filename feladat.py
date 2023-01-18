@@ -11,5 +11,5 @@ max_ho = max(hofok)
 max_nap = hofok.index(max_ho) + 1
 
 print("Átlagos hőfok:", atlag,"C°")
-print("Minimum hőfok", min_ho, "C° volt a", min_napnap,". napon)
+print("Minimum hőfok", min_ho, "C° volt a", min_nap,". napon)
 print("Maximum hőfok", max_ho, "C° volt a", max_nap". napon)
