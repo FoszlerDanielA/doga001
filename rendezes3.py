@@ -8,3 +8,5 @@ for i in range(len(lista), 0, -1):
             lista[j] = b
 
 print(lista)
+#sort
+#reverse
