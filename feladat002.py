@@ -3,16 +3,18 @@ def paros_e(szam):
         return True
     else:
         return False
+
 print(paros_e(2))
 def kilep(szam):
     while szam == 0:
         return True
     else:
         return False
+
 def osszeg_fg(lista):
     osszeg = 0
     for i in lista:
-        osszeg = osszeg+1
+        osszeg = osszeg+i
 
     return osszeg
 
@@ -20,6 +22,7 @@ def atlag(lista):
     osszeg = osszeg_fg(lista)
     atl = osszeg/len(lista)
     return atl
+
 lista=[]
 while True:
     a = int(input())
