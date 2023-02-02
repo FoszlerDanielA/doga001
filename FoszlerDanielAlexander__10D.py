@@ -1,5 +1,5 @@
-lista=[10,-2,1,25,22,30,60,-99,-1252,3000,2123,16,12]
-lista1=[10,-2,1,25,22,30,60,-99,-1252,3000,2123,16,12]
+lista = [10, -2, 1, 25, 22, 30, 60, -99, -1252, 3000, 2123, 16, 12]
+lista1 = [10, -2, 1, 25, 22, 30, 60, -99, -1252, 3000, 2123, 16, 12]
 for i in range(len(lista)-1):
     mind = i
 
@@ -19,5 +19,5 @@ for i in range(len(lista1)-1):
             lista1[i], lista1[mind] = lista1[mind], lista1[i]
 print(lista)
 print(lista1)
-print("legkisebb érték",lista[0])
-print("legnagyobb érték",lista[12])
+print("legkisebb érték", lista[0])
+print("legnagyobb érték", lista[12])
