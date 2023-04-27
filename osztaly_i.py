@@ -22,12 +22,6 @@ class Teglalap:
     def korekor(self):
         return Kor(self.atlofele())
 
-    def tegkort(self):
-        return self.atlofele()**2*math.pi
-
-    def tegkork(self):
-        return self.atlofele()*2*math.pi
-
     def kiir(self):
         return print("A téglalap Kerülete:", self.ker(), " ", "Területe:", self.ter(), "Átló hossza:",self.atlo(),
                      "köréírható körének hossza:", self.atlofele(), "köréírható körének kerülete:", self.korekor().kork(),
@@ -45,5 +39,3 @@ class Kor:
         return self.r**2*math.pi
     def kkir(self):
         return print("a kor kerülete", self.kork(), "területe", self.kort())
-
-
