@@ -39,3 +39,13 @@ class Kor:
         return self.r**2*math.pi
     def kkir(self):
         return print("a kor kerülete", self.kork(), "területe", self.kort())
+
+class Negyzet(Teglalap):
+    def __init__(self, a = 0):
+        Teglalap.__init__(self,a, a)
+        self.tipus = "negyzet"
+
+    def kiir(self):
+        return print("A téglalap Négyzet:", self.ker(), " ", "Területe:", self.ter(), "Átló hossza:",self.atlo(),
+                     "köréírható körének hossza:", self.atlofele(), "köréírható körének kerülete:", self.korekor().kork(),
+                     "köréírható körének területe:", self.korekor().kort())
